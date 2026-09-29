@@ -1,0 +1,11 @@
+{
+  "name": "elf-scope",
+  "version": "0.1.0",
+  "description": "⌘ ELF32/ELF64 binary inspector: sections, symbols, relocations, dynamic dependencies and a security report (PIE/NX/RELRO/canary) — pure JS, zero dependencies, browser + CLI.",
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=18" },
+  "keywords": ["elf", "binary-analysis", "linker", "security", "pie", "relro", "parser", "playground"],
+  "license": "MIT",
+  "bin": { "elfscope": "bin/elfscope.js" }
+}
